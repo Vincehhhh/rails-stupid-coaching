@@ -1,0 +1,13 @@
+<div class="container">
+  <div class ="bd-callout bd-callout-info">
+    <p> - <%=  @question %> </p>
+    <p>  <i> - You </i> </p>
+  </div>
+
+  <div class = "bd-callout bd-callout-answer">
+    <p style = "background-color:azure; font-weight:bold;">  - <%=  @answer %> </p>
+    <p> <i> - Your coach </i> </p>
+  </div>
+
+  <%= link_to "Ask a new question", ask_path %>
+</div>
